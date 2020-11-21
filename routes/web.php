@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/contact','ContactController@index');
+
+Route::get('/about','AboutController@index');
+
+Route::get('/contact','ContactController@index');
+

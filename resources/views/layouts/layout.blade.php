@@ -31,7 +31,7 @@
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav mr-auto">
                     <li >
-                        <a aria-expanded="false" role="button" href="#" > Inicio</a>
+                        <a aria-expanded="false" role="button" href="/" > Inicio</a>
                     </li>
                     <li class="dropdown">
                         <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Proyectos</a>
@@ -43,17 +43,17 @@
                         </ul>
                     </li>
                     <li >
-                        <a aria-expanded="false" role="button" href="#" > Acerca de mí</a>
+                        <a aria-expanded="false" role="button" href="{{ url('/about') }}" > Acerca de mí</a>
                     </li>
                     <li >
-                        <a aria-expanded="false" role="button" href="#" >Contacto</a>
+                    <a aria-expanded="false" role="button" href="{{ url('/contact') }}" >Contacto</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
         </div>
-        <div class="wrapper wrapper-content">
+        <div class="wrapper wrapper-content animated fadeInRight">
         @yield('contenido')    
 
         </div>
