@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSPINIA | Dashboard v.4</title>
+    <title>Geraldine Alarcón</title>
     <link rel="stylesheet" href="{{asset('inspinia_v2.9/FullVersion/css/bootstrap.min.css')}}" type="text/css">
     <link href="{{asset('inspinia_v2.9/FullVersion/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
     <link href="{{asset('inspinia_v2.9/FullVersion/css/animate.css')}}" rel="stylesheet">
@@ -22,60 +22,33 @@
         <div class="row border-bottom white-bg">
         <nav class="navbar navbar-expand-lg navbar-static-top" role="navigation">
 
-                <a href="#" class="navbar-brand">Inspinia</a>
+                <a href="#" class="navbar-brand">Geraldine Alarcón</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-reorder"></i>
                 </button>
-
+            
+                
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav mr-auto">
-                    <li class="active">
-                        <a aria-expanded="false" role="button" href="layouts.html"> Back to main Layout page</a>
+                    <li >
+                        <a aria-expanded="false" role="button" href="#" > Inicio</a>
                     </li>
                     <li class="dropdown">
-                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Menu item</a>
+                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Proyectos</a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
+                            <li><a href="">Proyecto 1</a></li>
+                            <li><a href="">Proyecto 2</a></li>
+                            <li><a href="">Proyecto 3</a></li>
+                            <li><a href="">Proyecto 4</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Menu item</a>
-                        <ul role="menu" class="dropdown-menu">
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                        </ul>
+                    <li >
+                        <a aria-expanded="false" role="button" href="#" > Acerca de mí</a>
                     </li>
-                    <li class="dropdown">
-                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Menu item</a>
-                        <ul role="menu" class="dropdown-menu">
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Menu item</a>
-                        <ul role="menu" class="dropdown-menu">
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                            <li><a href="">Menu item</a></li>
-                        </ul>
+                    <li >
+                        <a aria-expanded="false" role="button" href="#" >Contacto</a>
                     </li>
 
-                </ul>
-                <ul class="nav navbar-top-links navbar-right">
-                    <li>
-                        <a href="login.html">
-                            <i class="fa fa-sign-out"></i> Log out
-                        </a>
-                    </li>
                 </ul>
             </div>
         </nav>
@@ -85,11 +58,8 @@
 
         </div>
         <div class="footer">
-            <div class="float-right">
-                10GB of <strong>250GB</strong> Free.
-            </div>
             <div>
-                <strong>Copyright</strong> Example Company &copy; 2014-2018
+                <strong>Copyright</strong> Company &copy; 2020
             </div>
         </div>
 
