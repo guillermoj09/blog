@@ -12,6 +12,7 @@
     <link href="{{asset('inspinia_v2.9/FullVersion/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
     <link href="{{asset('inspinia_v2.9/FullVersion/css/animate.css')}}" rel="stylesheet">
     <link href="{{asset('inspinia_v2.9/FullVersion/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('inspinia_v2.9/FullVersion/css/plugins/summernote/summernote-bs4.css')}}" rel="stylesheet">
 
 </head>
 
@@ -92,6 +93,17 @@
     <!-- Peity demo -->
     <script src="{{asset('inspinia_v2.9/FullVersion/js/demo/peity-demo.js')}}"></script>
 
+    <!-- SUMMERNOTE -->
+    <script src="{{asset('inspinia_v2.9/FullVersion/js/plugins/summernote/summernote-bs4.js')}}"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $('.summernote').summernote();
+
+        });
+
+    </script>
 
     <script>
         $(document).ready(function() {
